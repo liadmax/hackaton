@@ -32,7 +32,8 @@
 /* dragable dropable */
 .dropy {
 border: #333;
-border-style: dashed;
+border-style: solid;
+display: -webkit-box;
 
 }
 #america {
@@ -69,11 +70,13 @@ border-style: dashed;
   width: 125px;
   height: 125px;
   background: #999;
-  color: #fff;
+  color: rgb(8, 8, 8);
   padding: 10px;
   margin: auto;
   background-image: url(world.jpg);
   background-size: cover;
+  border: #333;
+  border-style: dashed;
 }
 footer {
   background-color: #f5f5f5;

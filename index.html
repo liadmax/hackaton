@@ -14,22 +14,34 @@
   </head>
   <body>
   <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Trip plus Trip</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVvFXhOyHIgZEEtBzoWasnNcnHmVCE-l03jA&usqp=CAU" alt="..." height="36">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">MyTrip</a>
+            <a class="nav-link text-dark" href="#">Link</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+          <li class="nav-item dropdown text-dark">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -69,7 +81,7 @@
             <button onclick="myFunction()" class="dropbtn">packeges</button>
             <div id="myDropdown" class="dropdown-content">
                 <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                <a href="usa.html">usa</a>
+                <a href="usa.html">Usa</a>
                 <a href="guatamala.html">guatamala</a>
                 <a href="france.html">france</a>
                 <a href="italy.html">italy</a>
@@ -86,8 +98,8 @@
 
     <div class="dropy">
       <div id="europa">Europa</div>
-      <div id="mundo">Feeling Lucky</div>
       <div id="america">America</div>
+      <div id="mundo">Feeling Lucky</div>
       <div id="asia">Asia</div>
       <div id="africa">Africa</div>
     </div>
