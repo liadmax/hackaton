@@ -23,11 +23,11 @@ function myFunction() {
   var totalCost = 0;
   
   
-  $( "#draggable1" ).draggable();
-  $( "#draggable2" ).draggable();
-  $( "#draggable3" ).draggable();
-  $( "#draggable4" ).draggable();
-  $( "#droppable" ).droppable({
+  $( "#america" ).draggable();
+  $( "#asia" ).draggable();
+  $( "#africa" ).draggable();
+  $( "#europa" ).draggable();
+  $( "#mundo" ).droppable({
     drop: function() {
       alert( "dropped" );
     }
