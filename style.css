@@ -1,3 +1,45 @@
+*{
+  background-color: lightgrey;
+  text-align: center;
+
+}
+/* form css inside book page */
+form{
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  border: solid skyblue ;
+  background-color: skyblue;
+  font-family: inherit;
+  font-style: inherit;
+
+}
+
+/* card css in the book page */
+
+#setPackeges{
+  display: inline-table;
+}
+#card{
+  color: white;
+  border: dashed skyblue 5px;
+}
+
+#card-body{
+  color: white;
+  border: dashed skyblue 4px;
+
+}
+#card-text{
+  color: white;
+  border: dashed skyblue 4px;
+
+
+}
+
+
+
+
 .dropbtn {
   background-color:lightgray;
   color: black;
