@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link href="http://www.jeasyui.com/easyui/themes/icon.css" rel="stylesheet"/>
+    <link href="http://www.jeasyui.com/easyui/themes/default/easyui.css" rel="stylesheet"/>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
     <title>Hello, world!</title>
@@ -32,7 +35,6 @@
       </div>
     </div>
   </nav>
-  
   <header>  
     <div class="container">
     </div>
@@ -80,93 +82,109 @@
         </div>
     </section>
   <!-- Page Content -->
-  <section class="py-5">
-    <div id="no-drop" class="drag-drop"> #no-drop </div>
+  <section>
+    <div id="draggable4">Drag me</div>
+    <div>
 
-    <div id="yes-drop" class="drag-drop"> #yes-drop </div>
-    <div id="yes-drop2" class="drag-drop"> #yes-drop </div>
-    <div id="yes-drop3" class="drag-drop"> #yes-drop </div>
-    <div id="yes-drop4" class="drag-drop"> #yes-drop </div>
-    <div id="outer-dropzone" class="dropzone">
-      #outer-dropzone
-      <div id="inner-dropzone" class="dropzone">#inner-dropzone</div>
-     </div>
+      <div id="droppable">Drop here</div>
+      <div id="draggable1">Drag me</div>
+      <div id="draggable2">Drag me</div>
+      <div id="draggable3">Drag me</div>
+    </div>
+    </div>
+
   </section>
-    
-<footer id="footer" class="footer-1">
-  <div class="main-footer widgets-dark typo-light">
-  <div class="container">
-  <div class="row">
-  
-    <div class="col-xs-12 col-sm-6 col-md-3">
-  <div class="widget subscribe no-box">
-  <h5 class="widget-title">Trip Plus Trip<span></span></h5>
-  <p>The best company to travel to a random place! </p>
-  </div>
-  </div>
-  
-    
-  <div class="col-xs-12 col-sm-6 col-md-3">
-  <div class="widget no-box">
-  <h5 class="widget-title">Quick Links<span></span></h5>
-  <ul class="thumbnail-widget">
-  <li>
-  <div class="thumb-content"><a href="#.">&nbsp;Get Started</a></div> 
-  </li>
-  <li>
-  <div class="thumb-content"><a href="#.">&nbsp;Top Destination!</a></div> 
-  </li>
-  <li>
-  </ul>
-  </div>
-  </div>
-  
-    
-  
-        <div class="col-xs-12 col-sm-6 col-md-3">
-  <div class="widget no-box">
-  <h5 class="widget-title">Follow up<span></span></h5>
-              <a href="#"> <i class="fa fa-facebook"> </i> </a>
-              <a href="#"> <i class="fa fa-twitter"> </i> </a>
-              <a href="#"> <i class="fa fa-youtube"> </i> </a>
-  </div>
-  </div>
-  <br>
-    <br>
-  
-  
-  <div class="col-xs-12 col-sm-6 col-md-3">
-  <div class="widget no-box">
-  <h5 class="widget-title">Contact Us<span></span></h5>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <div class="emailfield">
-  <input type="text" name="email" value="Email">
-  <input name="uri" type="hidden" value="arabiantheme">
-  <input name="loc" type="hidden" value="en_US">
-  <input class="submitbutton ripplelink" type="submit" value="Subscribe">
-  </form>  
-  </div>
-  </div>
-  
-  </div>
-  </div>
-  </div>
-    
-  <div class="footer-copyright">
-  <div class="container">
-  <div class="row">
-  <div class="col-md-12 text-center">
-  <p>Copyright Tip plus Trip.</p>
-  </div>
-  </div>
-  </div>
-  </div>
-  </footer>
+  </section>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="footer-widget">
+                <h3>Stay in touch</h3>
+                <div class="footer-widget-content">
+                  <a href="mailto:sales@example.com" class="contact-link">sales@example.com</a>
+                  <a href="mailto:support@example.com" class="contact-link red"> support@example.com </a>
+                  <a href="tel:0121234" class="contact-link">(123) 456-789</a>
+                  <div class="footer-social">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+            <div class="footer-widget">
+              <h3>Latest Events</h3>
+              <div class="footer-widget-content">
+                <div class="media">
+                    <div class="media-left">
+                       <a href="#"><img class="media-object" src="http://placehold.it/60x60" alt="..."></a>
+                    </div>
+                    <div class="media-body">
+                       <p><a href="#">vulputate velit esse consequat. </a></p>
+                       <span>September 30, 2016 </span>
+                    </div>
+                 </div>
+                <div class="media">
+                    <div class="media-left">
+                       <a href="#."><img class="media-object" src="http://placehold.it/60x60" alt="..."></a>
+                    </div>
+                    <div class="media-body">
+                       <p><a href="#">vulputate velit esse consequat. </a></p>
+                       <span>September 30, 2016 </span>
+                    </div>
+                 </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+            <div class="footer-widget">
+              <h3>Opening Hour</h3>
+              <div class="footer-widget-content">
+              <div class="open-time ">
+                <ul class="opening-time">
+                  <li><span><i class="fa fa-times"></i></span><p class="clock-time"><strong>monday :</strong> closed</p>
+                   </li>
+                  <li><span><i class="fa fa-check"></i></span><p><strong>tue-fri :</strong> 8am - 12am</p></li>
+                  <li><span><i class="fa fa-check"></i></span><p><strong>sat-sun :</strong> 7am - 1am</p></li>
+                  <li><span><i class="fa fa-check"></i></span><p><strong>holydays :</strong> 12pm-12am</p></li>
+                </ul>
+                 </div>
+              </div>
+              </div></div>
+            
+            <div class="col-sm-3">
+            <div class="footer-widget">
+              <h3>Latest Events</h3>
+              <div class="footer-widget-content">
+                <div class="images-gellary">
+                  <ul>
+                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 01"></a></li>
+                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 02"></a></li>
+                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 03"></a></li>
+                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 04"></a></li>
+                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 05"></a></li>
+                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 06"></a></li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>  
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="script.js"></script>  
