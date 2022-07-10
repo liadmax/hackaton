@@ -1,4 +1,3 @@
-
 function myFunction() {
    document.getElementById("myDropdown").classList.toggle("show");
  }
@@ -17,7 +16,6 @@ function myFunction() {
        a[i].style.display = "none";
      }
    }
- 
  }
 
   $(function() {
@@ -111,7 +109,7 @@ $(function() {
         $( this )
         .addClass( "ui-state-highlight" )
         .find( "p" )
-        .html( document.location = "france.html" );
+        .html( document.location = "https://www.francetourisme.fr/" );
      },      
   });
 });
